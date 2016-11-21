@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookTest" project="BookStoreProject" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="bookStore.BookTest" incomplete="true">
+    <testcase name="userOperationsShouldThrowAnException_For_Name_Is_Not_Int" classname="bookStore.BookTest" incomplete="true"/>
+  </testsuite>
+</testrun>

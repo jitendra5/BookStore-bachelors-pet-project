@@ -1,0 +1,28 @@
+package bookStore;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+
+public class BookWorkFlowTest {
+	@Mock
+	BookList a;
+	@Before
+	public void setUp() throws Exception {
+		
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void userOperationsShouldCallListMethod() {
+		Book book = new Book();
+		book.userOperations(a);
+	}
+
+}

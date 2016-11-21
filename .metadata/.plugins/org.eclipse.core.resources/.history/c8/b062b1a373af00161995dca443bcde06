@@ -1,0 +1,23 @@
+package bookStore;
+import static org.junit.Assert.*;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.InputMismatchException;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class BookTest {
+	public static Book book;
+@Test(expected=InputMismatchException.class)
+public void userOperationsShouldThrowAnException_For_Name_Is_Not_Int(){
+	book=new Book();
+	book.userOperations();
+	
+}
+	    
+
+}
