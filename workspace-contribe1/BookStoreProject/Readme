@@ -1,0 +1,25 @@
+----------------------------------------------------------------------Task Description-----------------------------------------------------------------------------
+-->Environment used: Eclipse IDE, Oracle database.
+-->Programming language: JAVA.
+-->Version Control: GIT-hub.
+--> Unit Testing: Junit
+-->Approach: The 'BookStore' application is developed using JAVA. As the task states that the data can be downloaded, the data from the given link/API is downloaded and stored in Oracle database. The database is used to allow the user to perform operations on the books in bookstore. To achieve this JDBC-thin driver is used to interact with database and to perform operations on the given data. Also, the ojdbc.jar is added to build path and used to interact with database. Finally possible test cases are generated.  
+
+1. A class Book that implements interface BookList is done.
+2. The status codes are implemented using the enum datatype.
+3. The data is stored in the database in a table books, which includes all the book details(title,author,price,quantity) and the user operations like add/delete/update cart are managed with another table bookscart. The changes made to cart reflect the main table(books).
+_______________________________________________________________________________________________________
+-->User Operations:
+The user can perform the following operations:
+1. The user can list the books 
+    a. entire store.
+    b. search for one particular book.
+2. The user can add and remove from cart/bucket in the process of buying a book from the store.
+3. The user can update the quantity/ price of a particular book. 
+4. It is possible to extend the bookstore by adding/removing books from the bookstore.
+-->It is possible to interact with bookstore  using command line.
+-->The screen shots of the running application have been included in a separate folder in the git link.
+____________________________________________________________________________________________________
+What is achieved: the overall functionality of the system is developed.
+Scope for improvement: Test cases could have been improved. There can be other better way of implementation.
+____________________________________________________________________________________________________ 
